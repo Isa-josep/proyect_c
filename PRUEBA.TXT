@@ -1,0 +1,21 @@
+else{
+        $.post("controller/usuario.php?op=acceso",{userCorreo:userCorreo,userPassword:userPassword},function(data){
+            if(Rango == 0){
+                console.log("alumno");
+                window.open('http://localhost/login/view/home/index.alum','_self');
+                window.lo
+            }
+            else{
+               window.open('http://localhost/login/view/home/index.asesor','_self');
+                window.lo 
+            }
+        });
+    }
+
+
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Isa-josep/proyect_c.git
+git push -u origin master
