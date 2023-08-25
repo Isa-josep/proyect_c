@@ -26,28 +26,28 @@ function  menuDisplay () {
 menuSwitch.addEventListener('click' , menuDisplay )
 
 circulos.addEventListener("click",() => {
-  href(window.location.origin+"/view/home/circulos.html")
+  href(window.location.origin+"/proyect_c/view/home/circulos.html")
 })
 
 if(sesiones){
   sesiones.addEventListener("click",() => {
-    href(window.location.origin+"/view/home/info-tabla.html")
+    href(window.location.origin+"/proyect_c/view/home/info-tabla.html")
   })
 }
 if(back){
   back.addEventListener("click",()=>{
-    href(window.location.origin+"/view/home/circulo-beta.html")
+    href(window.location.origin+"/proyect_c/view/home/circulo-beta.html")
   })
 }
 
 if(acesores){
   acesores.addEventListener("click",()=>{
-    href(window.location.origin+"/view/home/Acesores.html")
+    href(window.location.origin+"/proyect_c/view/home/Acesores.html")
   })
 }
 
 logo.addEventListener("click",()=>{
-	href(window.location.origin+"/view/home/")
+	href(window.location.origin+"/proyect_c/view/home/")
 })
 for(let btt of loginBtt){
   btt.addEventListener("click",()=>{
