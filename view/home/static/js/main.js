@@ -34,11 +34,6 @@ if(sesiones){
     href("http://localhost/login/view/home/info-tabla.html")
   })
 }
-
-post.addEventListener("click",() => {
-  href("http://localhost/login/view/home/post.php")
-})
-
 if(back){
   back.addEventListener("click",()=>{
     href("http://localhost/login/view/home/circulo-beta.html")

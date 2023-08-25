@@ -19,9 +19,11 @@ $(document).ready(function(){
     $('#lblmensaje').hide();
     $('#lbldatos').hide();
 });
+
 $(document).on("click","#btnlogin", function(){
     var userCorreo= $('#txtcorreo').val();
     var userPassword= $('#txtpass').val();
+    
     if(userCorreo=='' || userPassword=='' ){
         console.log("vacio");
         $('#lblmensaje').show();
@@ -33,7 +35,6 @@ $(document).on("click","#btnlogin", function(){
                 console.log("datos incorrectos");
                 $('#lbldatos').show();
                 $('#lblmensaje').hide();
-                console.log("inicia sesion");
             }
             else{
                 window.open('http://localhost/login/view/home/','_self');
@@ -41,7 +42,7 @@ $(document).on("click","#btnlogin", function(){
             }
         });
     }
-    
+
     
 
 });

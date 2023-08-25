@@ -40,7 +40,6 @@ body {
 .container form input {
     font-weight: lighter;
     border: none;
-    width: 100%;
 }
 
 input:focus {
@@ -54,17 +53,14 @@ input:focus {
 .container form i {
     font-size: 1rem;
     margin-right: 0.5rem;
-    width: 100%;
 }
 
 .container form input {
     font-size: 1rem;
-    width: 100%;
 }
 
 .userArea {
     margin-bottom: .7rem;
-    width: 100%;
 }
 
 .container form .forgotPassword {
