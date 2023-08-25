@@ -2,7 +2,7 @@
 const qs = selector => document.querySelector(selector)
 const gt = sel => document.getElementById(sel)
 const qsa = sel => document.querySelectorAll(sel)
-const href = url => window.location.assign(url)
+const href = url => window.location.href = url
 const menu = qs(".menu")
 const menuSwitch = qs(".menuswitch")
 const circulos = gt("circulos")
@@ -26,28 +26,28 @@ function  menuDisplay () {
 menuSwitch.addEventListener('click' , menuDisplay )
 
 circulos.addEventListener("click",() => {
-  href("http://localhost/login/view/home/circulos.html")
+  href(window.location.origin+"/view/home/circulos.html")
 })
 
 if(sesiones){
   sesiones.addEventListener("click",() => {
-    href("http://localhost/login/view/home/info-tabla.html")
+    href(window.location.origin+"/view/home/info-tabla.html")
   })
 }
 if(back){
   back.addEventListener("click",()=>{
-    href("http://localhost/login/view/home/circulo-beta.html")
+    href(window.location.origin+"/view/home/circulo-beta.html")
   })
 }
 
 if(acesores){
   acesores.addEventListener("click",()=>{
-    href("http://localhost/login/view/home/Acesores.html")
+    href(window.location.origin+"/view/home/Acesores.html")
   })
 }
 
 logo.addEventListener("click",()=>{
-	href("http://localhost/login/view/home/")
+	href(window.location.origin+"/view/home/")
 })
 for(let btt of loginBtt){
   btt.addEventListener("click",()=>{

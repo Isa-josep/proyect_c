@@ -5,7 +5,7 @@ const href = url => window.location.assign(url)
 const error = (e) => console.error(e) 
 const log = (e) =>  console.log(e) ; 
 const URLdata  = {
-  host : 'localhost:4000/' 
+  host : 'isa-josep.github.io/' 
 } 
 const menuData = $$('.menu__item') ; 
 
