@@ -9,8 +9,3 @@ CREATE TABLE Usuarios(
     PRIMARY KEY (User_Id)
 );
 
-INSERT INTO Usuarios(UserName,UserGmail,UserPassword,UserEstado)
-VALUES
-('Isauro jose paredes heredia ','isaurini1902@gmail.com','isa1902',true);
-
-    SELECT * FROM Usuarios WHERE UserGmail='isaurini1902@gmail.com' AND UserPassword='isa1902';
